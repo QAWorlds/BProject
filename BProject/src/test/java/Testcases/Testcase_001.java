@@ -9,6 +9,6 @@ public class Testcase_001 {
     public void openGoogle() {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com");
-        driver.quit();
+       // driver.quit();
     }
 }
